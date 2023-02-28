@@ -1,0 +1,5 @@
+package com.trailapp.model;
+
+public class Address {
+
+}

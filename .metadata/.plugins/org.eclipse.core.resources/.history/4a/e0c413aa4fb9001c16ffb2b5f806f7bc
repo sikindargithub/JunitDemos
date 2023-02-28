@@ -1,0 +1,7 @@
+package com.trailapp.model;
+
+public class Employee {
+	private String name;
+	private
+
+}

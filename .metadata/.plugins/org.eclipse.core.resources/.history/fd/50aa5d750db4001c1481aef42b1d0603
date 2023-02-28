@@ -1,0 +1,20 @@
+package com.bookapp.main;
+
+import java.util.Scanner;
+
+import com.bookapp.model.Book;
+import com.bookapp.service.BookServiceImpl;
+import com.bookapp.service.IBookService;
+
+public class Client {
+
+	public static void main(String[] args) {
+		Book book1 = new Book("Java","Cathy","Tech",1234.56);
+		Book book2 = new Book("Python","David","AI",1546.89);
+		Book book3 = new Book("C++","Jenny","Tech",368.23);
+		Book book4 = new Book("Kotlin","Cathy","Andriod",1897.24);
+		IBookService bookService = new BookServiceImpl();
+		
+	}
+
+}
